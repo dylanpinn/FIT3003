@@ -1,0 +1,3 @@
+COMMIT;
+
+-- Saves pending commits.

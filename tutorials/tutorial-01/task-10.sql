@@ -1,0 +1,3 @@
+ALTER TABLE STUDENT ADD (
+  City    CHAR(40)
+);
