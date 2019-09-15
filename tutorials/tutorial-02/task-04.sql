@@ -6,31 +6,38 @@ CREATE TABLE STUDENT2 (
     SDOB DATE,
     SCategory VARCHAR2(6),
     PRIMARY KEY (SID)
-)
+);
+
+CREATE TABLE SUBJECT2 (
+    UCode CHAR(5) NOT NULL,
+    UTitle VARCHAR2(30),
+    UCredit NUMBER(3),
+    PRIMARY KEY (UCode)
+);
+
+CREATE TABLE OFFERING2 (
+    OID NUMBER(6) NOT NULL,
+    OYear NUMBER(4),
+    OSem NUMBER(1),
+    OCampus VARCHAR2(20),
+    OMode CHAR(1),
+    UCode CHAR(5),
+    PRIMARY KEY (OID),
+    CONSTRAINT fk_subject2
+        FOREIGN KEY (UCode)
+        REFERENCES SUBJECT2(UCode)
+);
 
 CREATE TABLE ENROLMENT2 (
     SID NUMBER(6) NOT NULL,
     OID NUMBER(6) NOT NULL,
     Score NUMBER(3),
     Grade VARCHAR2(2),
-    PRIMARY KEY (SID, OID)
-)
-
-
-CREATE TABLE SUBJECT2 (
-    UCode CHAR(5) NOT NULL,
-    UTitle VARCHAR2(30),
-    UCredit Number(3),
-    PRIMARY KEY (UCode)
-)
-
-
-CREATE TABLE OFFERING2 (
-    OID NUMBER(6) NOT NULL,
-    OYear
-    OSem
-    OCampus
-    OMode
-    UCode
-)
-
+    PRIMARY KEY (SID, OID),
+    CONSTRAINT fk_student2
+        FOREIGN KEY (SID)
+        REFERENCES STUDENT2(SID),
+    CONSTRAINT fk_offering2
+        FOREIGN KEY (OID)
+        REFERENCES OFFERING2(OID)
+);
