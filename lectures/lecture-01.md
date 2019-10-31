@@ -9,8 +9,8 @@ subtitle: 'Understanding Business Intelligence and Data Warehousing'
 
 ### Unit aim
 
-- The aim of this unit toprovide a framework for understanding business
-  intelligence and data warehousingin organisations, including their:
+- The aim of this unit to provide a framework for understanding business
+  intelligence and data warehousing in organisations, including their:
   - Purpose
   - Design
   - Development
@@ -26,7 +26,7 @@ subtitle: 'Understanding Business Intelligence and Data Warehousing'
      activities:transaction processing systems
      - e.g. ERP systems, payroll systems, point-of-sale systems, inventory
        management systems, etc.
-  2. Systems forcollating and analysinginformation (typically collected from
+  2. Systems for collating and analysing information (typically collected from
      transaction processing systems) to support organisational decision-making.
 - No IT professional can claim to understand enterprise IT without understanding
   both kinds of systems.
@@ -64,8 +64,8 @@ subtitle: 'Understanding Business Intelligence and Data Warehousing'
 - A Data Warehouse
   - A large, centralised database for storing data from transaction processing
     systems
-- Provides a data storage layer that provides:￼"...asubject-oriented,
-  integrated, time-variant, and non-volatilecollection of data insupport of
+- Provides a data storage layer that provides: "...a subject-oriented,
+  integrated, time-variant, and non-volatile collection of data in support of
   management's decisions" Inmon and Hackathorn (1994)
 
 ## Motivations for data warehousing
@@ -101,13 +101,13 @@ subtitle: 'Understanding Business Intelligence and Data Warehousing'
 
 - Data in the warehouse is characterised by the time-series nature of historical
   data.
-- The data consists of aseriesof "snapshots" which are time-stamped and record
+- The data consists of a series of "snapshots" which are time-stamped and record
   values at a moment in time.
 - This supports trend analysis of the data.
 
 ### Non volatile
 
-- The data warehouse isnotcontinuously updated (inserts, deletes and changes)
+- The data warehouse is not continuously updated (inserts, deletes and changes)
   like data in a transaction-processing system.
 - Data in a data warehouse is periodically up-loaded at a scheduled time
   intervals (daily, etc.) - "upserting"
@@ -119,9 +119,9 @@ subtitle: 'Understanding Business Intelligence and Data Warehousing'
 
 - Three key aspects of BI/DW systems make them different from other information
   systems:
-  - Thetasksupported
-  - Theusers
-  - Thedevelopment processrequired.
+  - The task supported
+  - The users
+  - The development process required.
 
 ### The Task - Decision Making
 
@@ -142,7 +142,7 @@ available
 - Subject to cognitive overload
 - Subject to systemic biases
 - Subject to personal preference
-- Inherentlyambiguous, especially for strategic decisions
+- Inherently ambiguous, especially for strategic decisions
   - No single 'right' answer
   - Possibly no single 'right' way to make a decision.
 
@@ -185,7 +185,7 @@ The traditional approach to the SDLC:
 
 #### But for BI/DW
 
-- The purpose of the system is to help usersunderstandthe decision problem so
+- The purpose of the system is to help users understand the decision problem so
   they can make a better decision.
 - The information needed to make a good decision depends on the decision
   problem.
@@ -198,7 +198,7 @@ The traditional approach to the SDLC:
 
 ## BI/DW Development
 
-- Any system designed to support decision makingmust:
+- Any system designed to support decision making must:
   - Be closely developed with co-operation between the users and the developers.
   - Be developed in an adaptive manner - as the user uses the system, their
     understanding and requirements change and the system design has to change
@@ -218,6 +218,6 @@ The traditional approach to the SDLC:
   support and business intelligence initiatives in an organisation.
 - BI is a significant aspect of enterprise IT, important to understand properly.
 - BI and DW are fundamentally different from more typical information systems:
-  - Different nature of thetasksupported.
-  - Different, discretionary and powerfulusers.
-  - Different, 'chaotic' developmentprocess
+  - Different nature of the task supported.
+  - Different, discretionary and powerful users.
+  - Different, 'chaotic' development process

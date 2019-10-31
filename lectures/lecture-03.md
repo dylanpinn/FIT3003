@@ -14,7 +14,7 @@ subtitle: 'Business Intelligence Interfaces 2'
 
 ### BI System Model of Communication
 
-![aea79c57-8618-4c8a-860f-11e232f7798e.png](https://i.loli.net/2019/10/29/qzKB1A4duIWnlto.png)
+![](https://i.loli.net/2019/10/29/qzKB1A4duIWnlto.png)
 
 ### Consequences for BI UI design
 
@@ -54,8 +54,8 @@ subtitle: 'Business Intelligence Interfaces 2'
   - Symbolic/"analytic" -> Tables (e.g. specific values)
 - Task performance (i.e. accuracy, speed, etc.) increases significantly when
   class of task matches type of information representation
-- Ensure you understand the decision taskbeforeyou choose between using a chart
-  or a table.
+- Ensure you understand the decision task before you choose between using a
+  chart or a table.
 
 ## How to design effective UI?
 
@@ -96,9 +96,9 @@ subtitle: 'Business Intelligence Interfaces 2'
   - Figures which are meant to be compared should be placed close together, and
     gaps used to guide the eye across a table.
 
-#### Ehrenberg's Rule 6
+#### Ehrenberg's Rule 6\
 
-![052838a1-b3ea-448d-b613-f3def31c3d8c.png](https://i.loli.net/2019/10/29/ZdnfXQTeJ6DN7kI.png)
+![](https://i.loli.net/2019/10/29/ZdnfXQTeJ6DN7kI.png)
 
 ### How to: Design Good Charts
 
@@ -121,7 +121,7 @@ subtitle: 'Business Intelligence Interfaces 2'
 - Use colour to make new points, e.g. fresh data
 - Note personal preferences - option to change?
 - Consider colour blindness when choosing colours
-  - ≈10%of males are red-green colour blind.
+  - $\approx 10\%$ of males are red-green colour blind.
 - Dark tones come forward, light tones recede.
 
 #### Choosing the correct chart
@@ -147,9 +147,9 @@ subtitle: 'Business Intelligence Interfaces 2'
   - Now a standard feature in Excel
 - Everywhere a word or number can be used.
 
-### The purpose of adashboard
+### The purpose of a dashboard
 
-- To quickly present data thatinformsthe user of the current status of
+- To quickly present data that informs the user of the current status of
   something.
 - Avoid:
   - In-depth analysis
@@ -159,7 +159,7 @@ subtitle: 'Business Intelligence Interfaces 2'
 - Ensure:
   - Visualisations are quick and easy to read
   - Visualisations work together to communicate effectively
-  - Users' attention is drawn tourgentproblems.
+  - Users' attention is drawn to urgent problems.
 
 #### Dashboards - Design and Development
 

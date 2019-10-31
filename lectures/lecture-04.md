@@ -30,15 +30,20 @@ subtitle: 'Dimensional Modelling for BI Applications'
   - What location it is from
   - What product it is associated with
   - What promotion it is associated with
-- Often talk about information spaces ascubes, hyper cubesorn-cubes.
+- Often talk about information spaces as cubes, hyper cubes or n-cubes.
 
 ### Dimensional Models
 
 - A one-dimensional informational space:
+
   ![](https://i.loli.net/2019/10/29/La68xb7gOwK39WB.png)
+
 - A two-dimensional information space:
+
   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8eyss7xlrj30sg0fe0vf.jpg)
+
 - A three-dimensional information space:
+
   ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8eytu8p0aj30sg0d7n1h.jpg)
 
 ### Extracting Data: Slicing and Dicing
@@ -97,9 +102,13 @@ subtitle: 'Dimensional Modelling for BI Applications'
   - Some tools provide caching, but not all
   - Aggregates can be stored in the data warehouse if designed well.
 
-Option 1: Calculate aggregates as needed
+Option 1
 
-Option 2: Pre-calculate aggregates
+: Calculate aggregates as needed
+
+Option 2
+
+: Pre-calculate aggregates
 
 ### Modelling Issues
 
@@ -118,7 +127,7 @@ Option 2: Pre-calculate aggregates
 - Dimensions that aren't clean
   - Uneven, jagged, unlevelled.
 
-## Conceptual modelling withThomsen Diagrams
+## Conceptual modelling with Thomsen Diagrams
 
 ### Multi-Dimensional Domain Structure
 
@@ -131,7 +140,7 @@ Option 2: Pre-calculate aggregates
 
 ### Example Time Dimension
 
-![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8eyvix9w8j309u0nq3zq.jpg)
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8eyvix9w8j309u0nq3zq.jpg){width=50%}
 
 ### A Simple Three Dimensional Model
 
@@ -146,13 +155,13 @@ Option 2: Pre-calculate aggregates
 - Rather than showing every single value you show each type in the hierarchy
 - Not easy to show multiple hierarchies
 
-  ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8eywolugoj30f50i8757.jpg)
+  ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8eywolugoj30f50i8757.jpg){width=25%}
 
-#### An example of conceptual modelling
+#### An example of conceptual modelling\
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8eyx558ukj30sg0g8goa.jpg)
 
-#### Example of a multiple hierarchy
+#### Example of a multiple hierarchy\
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g8eyxfeu98j30sg0g8wgi.jpg)
 
@@ -194,8 +203,8 @@ Option 2: Pre-calculate aggregates
 - Large numbers of tables
 - Commonly used
 - Research shows that they are not easily understood by non IT people
-- Optimised for efficient data processing: INSERT, UPDATE, DELETE instead of
-  SELECT
+- Optimised for efficient data processing: `INSERT`, `UPDATE`, `DELETE` instead
+  of `SELECT`
 - Complexity hidden form the end user with user interfaces designed around
   workflows/business processes.
 
